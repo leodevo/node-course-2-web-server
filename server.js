@@ -41,7 +41,7 @@ hbs.registerHelper('screamIt', (text) => {
 app.get('/', (req, res) => {
   res.render('home.hbs', {
     pageTitle: 'Home Page',
-    welcomeMessage: 'Welcome on Leo\'s webpageTitle'
+    welcomeMessage: 'Welcome on leodevo\'s webpageTitle'
   })
 })
 
